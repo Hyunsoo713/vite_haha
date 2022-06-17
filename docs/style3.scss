@@ -1,0 +1,49 @@
+html body{
+  box-sizing: border-box;
+  font-family: 'Nanum Myeongjo', serif;
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+  overflow:auto;
+}
+
+.page-name{
+  top:0;
+  z-index:1000;
+  padding-left:40%;
+  padding-right:40%;
+ border: solid 1px #ffffff;
+ background-color:#ffffff;
+ position: fixed;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+.container{
+padding: 10px;
+  float: left;
+}
+img{
+
+  width: 400px;
+  height:300px;
+}
+
+
+
+
+
+
+
+
